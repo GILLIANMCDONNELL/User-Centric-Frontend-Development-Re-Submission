@@ -11,7 +11,7 @@ body {
   background-color: #bb3928;
 }
 .navbar-brand img {
-    height: 4rem;
+    height: 4em;
 }
 
 .home-inner {
@@ -31,9 +31,9 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
  }
  .caption h3 {
    color: #fff;
-   font-size: 4rem;
+   font-size: 4em;
    text-transform: uppercase;
-   padding-bottom: 2rem;
+   padding-bottom: 2em;
  }
 .content {
   font-size: 1.25em;
@@ -42,7 +42,7 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
  
  /*-----About Profile Cards*/
  .card {
-   margin: 2rem;
+   margin: 2em;
  }
 
  .card-img-top {
@@ -52,7 +52,7 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
 }
 
 .card-title {
-  font-size: 2rem;
+  font-size: 2em;
   text-transform: uppercase;
   text-align: center;
 }
@@ -113,7 +113,7 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
     background-position: center center;
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
-    will-change: transform;
+            will-change: transform;
   }
 /*--------Social Links ------*/
 
@@ -141,4 +141,36 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
   .social-links li a i:hover {
       background: #fff;
   }
-  
+/*Font Adjustment for Tablet and Phone*/
+ @media(max-width:768px) {
+
+  .caption h3 {
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+  }
+
+  .card-title {
+    font-size: 1em;
+  }
+
+  .general-sub-drk {
+    padding-top: 1em;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E9ECEF;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .content {
+    font-size: 1em;
+    color: #E9ECEF;
+  }
+
+ } 
+
