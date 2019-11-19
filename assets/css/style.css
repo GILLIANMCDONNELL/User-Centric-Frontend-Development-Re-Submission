@@ -42,7 +42,7 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
    padding: .5rem 1.1rem;
    font-size: .9rem;
  }
- 
+ /*-----About Profile Cards*/
  .card {
    margin: 2rem;
  }
@@ -51,6 +51,12 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
     max-height: 200px;
     min-height: 150px;
     object-fit: cover;
+}
+
+.card-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
 }
 .overflow-auto {
   max-height: 200px;
