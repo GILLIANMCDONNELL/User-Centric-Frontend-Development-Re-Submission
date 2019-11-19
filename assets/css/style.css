@@ -35,14 +35,11 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
    text-transform: uppercase;
    padding-bottom: 2rem;
  }
-
- .btn {
-   border-width: medium;
-   border-radius: 0;
-   text-transform: uppercase;
-   padding: .5rem 1.1rem;
-   font-size: .9rem;
- }
+.content {
+  font-size: 1.25em;
+  color: #E9ECEF;
+}
+ 
  /*-----About Profile Cards*/
  .card {
    margin: 2rem;
@@ -69,13 +66,15 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
   object-fit: cover;
   padding: 1em;
 }
-
+/*------Headings-------*/
 .general-sub-drk {
   padding-top: 2rem;
   font-family: "Exo", sans-serif;
   text-align: center;
   font-size: 1.9rem;
+  font-weight: bold;
   text-transform: uppercase;
+  color: #E9ECEF;
   margin-top: 2rem;
   margin-bottom: 1.9rem;
 }
@@ -86,21 +85,7 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
   min-height: 120px;
   margin: 0;
  }
-
-.center-form {
-  max-width: 70%;
-  padding-top: 15px;
-  padding-bottom: 15px;
- 
-}
-
-@media(min-width:992px)
-.center-form {
-  max-width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
- 
-}
+/*-----Landing Home------*/
 .landing {
     position: relative;
     width: 100%;
