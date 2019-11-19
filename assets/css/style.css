@@ -4,8 +4,7 @@ body {
   overflow-x: hidden;  
   color: #505962;
   background-color: #bb3928 !important;
-  
-}
+ }
 
 .navbar {
   text-transform: uppercase;
@@ -19,6 +18,9 @@ body {
 background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-michael-nesmith-original-members-of-the-monkees-in-picture-id1128460115?s=2048x2048");
 }
 
+.jumbotron {
+  background-color: #bb3928!important;
+}
 .caption {
   width: 100%;
   max-width: 100%;
@@ -67,17 +69,14 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
   object-fit: cover;
   padding: 1em;
 }
-.general-sub {
-  font-family: "Exo", sans-serif;
-  font-weight: 300;
-  color: #fafafa;
-}
 
 .general-sub-drk {
+  padding-top: 2rem;
   font-family: "Exo", sans-serif;
   text-align: center;
   font-size: 1.9rem;
   text-transform: uppercase;
+  margin-top: 2rem;
   margin-bottom: 1.9rem;
 }
 
@@ -95,6 +94,13 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
  
 }
 
+@media(min-width:992px)
+.center-form {
+  max-width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ 
+}
 .landing {
     position: relative;
     width: 100%;
@@ -125,28 +131,29 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
     will-change: transform;
   }
 /*--------Social Links ------*/
+
+
   .social-links {
     padding-top: 15px;
     padding-bottom: 15px;
     }
   
     .social-links li a i {
-      width: 32px;
-      height: 32px;
-      padding: 12px 0;
-      border-radius: 50%;
-      font-size: 13px;
-      line-height: 7px;
-      text-align: center;
-      color: #fafafa;
-      background: #8f8f8f;
-       transition: all 0.35s ease-in-out;
-        -moz-transition: all 0.35s ease-in-out;
-        -webkit-transition: all 0.35s ease-in-out;
-        -o-transition: all 0.35s ease-in-out;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 34px;
+    width: 54px;
+    height: 54px;
+    line-height: 18px;
+    color: #1d2846;
+    background: #f3df00;
+    transition: all 0.35s ease-in-out;
+      -moz-transition: all 0.35s ease-in-out;
+      -webkit-transition: all 0.35s ease-in-out;
+      -o-transition: all 0.35s ease-in-out;
   }
   
   .social-links li a i:hover {
-      background: #dd5022;
+      background: #fff;
   }
   
