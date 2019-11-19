@@ -20,7 +20,6 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
 }
 
 .caption {
-  /*background-color: rgba(255, 255, 255, 0.3);*/
   width: 100%;
   max-width: 100%;
   position: absolute;
@@ -63,7 +62,10 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
 }
 
 .img-fluid {
-  height: 300px;
+  height: 300px!important;
+  width: 650px;
+  object-fit: cover;
+  padding: 1em;
 }
 .general-sub {
   font-family: "Exo", sans-serif;
@@ -92,16 +94,6 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
   padding-bottom: 15px;
  
 }
-@media(min-width:992px)
-.center-form {
-  max-width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
- 
-}
-
-
-
 
 .landing {
     position: relative;
