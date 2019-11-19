@@ -19,16 +19,13 @@ My goal in the design was to provide a place where fans and potential fans could
 
 ## Features
 
--This site uses the scrollSpy feature in Bootstrap with an extra JavaScript function added to create a 'smooth scrolling' effect.The navbar is responsive to create a less crowded view on mobile eliminating any crowded space on mobile.
+-This site uses the scrollSpy feature in Bootstrap. The navbar is responsive to create a less crowded view on mobile eliminating any crowded space on mobile.
 
 ### Existing Features
 - Contact Form - allows users to send a message or request for available dates. 
+- Newsletter Sign Up - Allow users to sign up to newsletter to keep up with events.
 - Spotify - allows users to listen to the bands music and find further music on spotify.
 - You-Tube - allows users to watch video of The Monkees which does not automatically start on page load giving the option for the user to play video when they want.
-
-
-### Features Left to Implement
-- Calendar online booking which would advertise available dates for fans or potential fans to confirm.  
 
 ## Technologies Used
 -HTML
@@ -39,8 +36,8 @@ My goal in the design was to provide a place where fans and potential fans could
 
 ## Testing
 The site has been tested using Chrome Developer tools checking responsiveness on various mobile, tablet and desktop. 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-. Responsiveness
+
+
 1. Open .html file in chrome browser.
 2. Right click and choose inspect.
 3. hover over area to inspect styles and cick inspect again, alternatively click on page area in Elements to also show styles of the page area.
@@ -54,6 +51,7 @@ In this section, you need to convince the assessor that you have conducted enoug
  4. Try to submit the form with all inputs valid and verify that a success message appears.
 
  - Spotify Player - test play and link to spotify site.
+ - YouTube Video - 
 
 Review of site testing for sections
 The overall feel and look of the site is themed well with good structure and easy to follow navigation.
@@ -82,7 +80,6 @@ To run locally, you can clone this repository directly into the editor of your c
 
 ### Media
 - The photos used in this site are directly linked to source file throughout the site. 
-- Images are also used by assets provided by Code Institute.
 - Gallery Photos [Getty Images](https://www.gettyimages.ie/)
 
 ### Acknowledgements
@@ -96,4 +93,7 @@ To run locally, you can clone this repository directly into the editor of your c
 Improvements Made 
 - Landing Page Image Changes for more stricking effect and Caption changed for clearer message of site user goal to promote upcoming events.
 - Music Section - Spotify and YouTube Section updated and fixed responsiveness.
+- Social Icons styled to the color scheme of the website and made larger to be more prominant. 
+- All Buttons styled the same for User Ease. 
+
 
