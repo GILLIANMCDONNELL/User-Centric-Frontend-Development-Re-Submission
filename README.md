@@ -17,6 +17,7 @@ My goal in the design was to provide a place where fans and potential fans could
 - As a site user I want to watch and hear tracks from The Monkees so I can see what they have available.
 
 [Wireframe Link](https://github.com/GILLIANMCD/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/wireframe.pdf)
+i.e. I have not re-designed the original wireframe as I was conscious of improving on the site and not completing a full re-design. Changes to original wireframe are in the music - contact us and social share elements which now flow in a more consistanct manner. 
 
 
 ## Features
@@ -49,9 +50,12 @@ The site has been tested using Chrome Developer tools checking responsiveness on
 
 - Contact form:
  1. Go to the "Contact Us" page
- 2. Try to submit the empty form and verify that an error message about the required fields appears
- 3. Try to submit the form with an invalid email address and verify that a relevant error message appears
- 4. Try to submit the form with all inputs valid and verify that a success message appears.
+ 2. Try to submit the empty form and verify that an error message about the required fields appears 
+    - Works Correct
+ 3. Try to submit the form with an invalid email address and verify that a relevant error message appears 
+    - Works Correct
+ 4. Try to submit the form with all inputs valid and verify that a success message appears. 
+    - This Feature is not added in this Project
 
  - Spotify Player - test play and link to spotify site.
  - YouTube Video - 
