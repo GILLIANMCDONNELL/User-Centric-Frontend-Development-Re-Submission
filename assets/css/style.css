@@ -49,7 +49,7 @@ background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-mi
 
  .card-img-top {
     max-height: 200px;
-    min-height: 150px;
+    min-height: 200px;
     object-fit: cover;
 }
 
