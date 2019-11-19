@@ -63,11 +63,18 @@ The site has been tested using Chrome Developer tools checking responsiveness on
 Review of site testing for sections
 
 The overall feel and look of the site is themed well with good structure and easy to follow navigation.
--Navbar - navbar transforms to burget menu on mobile 
--Home - Image looks well on desktop - does not shrink down well on tablet or mobile *Tablet and Mobile to be addressed.
--About/ Gallery- about and Gallery on mobile and tablet and desktop with columns adjusting accordingly.
--Video - Appears to big for user * Video size to be adjusted and listen to spotify to be placed in 2 cols in order to keep media together and provide a better user experience. 
--footer - Music plays, contact button works and social medial links work. However the colums appear to overlap 
+
+- Navbar - navbar transforms to burger menu on mobile 
+ - however covers some content. 
+
+- Home - Image looks well on desktop - does not shrink down well on tablet or mobile *Tablet and Mobile to be addressed.
+   - This issue is addressed and resolved. 
+- About/ Gallery- about and Gallery on mobile and tablet and desktop with columns adjusting accordingly.
+   - 
+- Video - Appears to big for user * Video size to be adjusted and listen to spotify to be placed in 2 cols in order to keep media together and provide a better user experience. 
+   - This issue is addressed and resolved
+- footer - Music plays, contact button works and social medial links work. However the colums appear to overlap 
+   - This issue is addressed and resolved
 
 ## Deployment
 
