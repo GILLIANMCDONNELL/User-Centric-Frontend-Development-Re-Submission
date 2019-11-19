@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+  overflow-x: hidden;  
+  color: #505962;
+  background-color: #bb3928 !important;
+  
+}
+
+.navbar {
+  text-transform: uppercase;
+  background-color: #bb3928;
+}
+.navbar-brand img {
+    height: 4rem;
+}
+
+.home-inner {
+background-image: url("https://media.gettyimages.com/photos/mickey-dolenz-and-michael-nesmith-original-members-of-the-monkees-in-picture-id1128460115?s=2048x2048");
+}
+
+.caption {
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  padding-bottom: 15px;
+ }
+ .caption h3 {
+   color: #fff;
+   font-size: 4rem;
+   text-transform: uppercase;
+   padding-bottom: 2rem;
+ }
+
+ .btn {
+   border-width: medium;
+   border-radius: 0;
+   text-transform: uppercase;
+   padding: .5rem 1.1rem;
+   font-size: .9rem;
+ }
+ 
+ .card {
+   margin: 2rem;
+ }
+
+ .card-img-top {
+    max-height: 200px;
+    min-height: 150px;
+    object-fit: cover;
+}
+.overflow-auto {
+  max-height: 200px;
+}
+
+.img-fluid {
+  height: 300px;
+}
+.general-sub {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+}
+
+.general-sub-drk {
+  font-family: "Exo", sans-serif;
+  text-align: center;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+
+.footer {
+  background-color: #bb3928;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
+ }
+
+.center-form {
+  max-width: 70%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ 
+}
+@media(min-width:992px)
+.center-form {
+  max-width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ 
+}
+
+
+
+
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    background: #E9ECEF;
+    z-index: -1;
+  }
+  .home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .home-inner {
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+/*--------Social Links ------*/
+  .social-links {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+  
+    .social-links li a i {
+      width: 32px;
+      height: 32px;
+      padding: 12px 0;
+      border-radius: 50%;
+      font-size: 13px;
+      line-height: 7px;
+      text-align: center;
+      color: #fafafa;
+      background: #8f8f8f;
+       transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+  }
+  
+  .social-links li a i:hover {
+      background: #dd5022;
+  }
+  
